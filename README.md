@@ -8,6 +8,6 @@
 ---
 This paper is accepted to NeurIPS 2025!
 
-We are extending this work. The code will be released very soon (no later than the conference date).
+We are organizing the code and extending this work. The code will be released very soon (definitely no later than the conference date).
 
 If you would like to obtain the preliminary code earlier or explore potential collaboration, please contact me at xud_yan@163.com/xud_yan@bjtu.edu.cn .
