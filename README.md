@@ -9,6 +9,8 @@
 
 **TL;DR**: We propose to accumulate multimodal knowledge to overcome the label distribution shift caused by unseen compositions recombined from attributes and objects by leveraging unsupervised data at test time.
 
+**We look forward to more work focusing on test-time strategies for addressing the CZSL task.**
+
 <img src=".\images\overview.png" style="zoom: 50%;" />
 
 ## ⚙️ Setup
