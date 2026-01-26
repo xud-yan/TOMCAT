@@ -65,7 +65,7 @@ Note
 
 ## 📚 Citation
 
-If you find our work helpful, please cite our paper:
+If you find our work helpful, please star the repository and cite our paper:
 
 ```
 @article{Yan_2025_NeurIPS,
