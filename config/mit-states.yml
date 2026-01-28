@@ -66,10 +66,10 @@ tta:
 
 others:
   device: cuda:1 #Your_Device
-  save_path: ./result/mit-states/20250305_1 #Your_Save_Path
+  save_path:  #Your_Save_Path
 
-  load_model: ./result/mit-states/20250305_1/test_best.pt
-  load_model_path: ./result/mit-states/20250305_1
+  load_model: #Your_Save_Model_Path
+  load_model_path:  #Your_Save_Path
 
   wandb_net: online
   use_wandb: True
