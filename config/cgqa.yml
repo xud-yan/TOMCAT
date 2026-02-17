@@ -44,7 +44,7 @@ test:
   bias: 0.001
   text_first: True
   #
-  num_workers: 0 #2
+  num_workers: 0 # 10 fortraining and 0 for test
   current_epoch: -1
 
 tta:
