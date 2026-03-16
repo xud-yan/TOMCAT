@@ -17,7 +17,7 @@ train:
   scheduler: StepLR
   step_size: 5
   gamma: 0.5
-  lr: 0.000003125
+  lr: 0.0001
   attr_dropout: 0
   weight_decay: 0.00001
   context_length: 10
@@ -44,7 +44,7 @@ test:
   bias: 0.001
   text_first: True
   #
-  num_workers: 0 # 10 fortraining and 0 for test
+  num_workers: 0 # 10 for training and 0 for test
   current_epoch: -1
 
 tta:
