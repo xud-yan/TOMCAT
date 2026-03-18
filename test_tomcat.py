@@ -202,7 +202,7 @@ def predict_logits_text_first_with_tomcat(model, dataset, config):
         ])
 
     for idx, data in tqdm(
-            enumerate(dataloader), total=len(dataloader), desc="Testing"
+            enumerate(dataloader), total=len(dataloader), desc="Testing", ncols=80
     ):
 
         data[0] = data[0].to(device)
