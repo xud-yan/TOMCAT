@@ -44,7 +44,7 @@ def train_model(model, optimizer, config, train_dataset, val_dataset, test_datas
     for epoch in range(config.epoch_start, config.epochs):
         model.train()
         progress_bar = tqdm.tqdm(
-            total=len(train_dataloader), desc="epoch % 3d" % (epoch)
+            total=len(train_dataloader), desc="epoch % 3d" % (epoch), ncols=80
         )
 
 
