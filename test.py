@@ -492,7 +492,7 @@ def predict_logits_text_first(model, dataset, config):
         text_feats = torch.cat(text_feats, dim=0)
 
     for idx, data in tqdm(
-            enumerate(dataloader), total=len(dataloader), desc="Testing"
+            enumerate(dataloader), total=len(dataloader), desc="Testing", ncols=80
     ):
         data[0] = data[0].to(config.device)
 
