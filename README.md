@@ -4,7 +4,7 @@
 * **🧑‍💻 Authors**: [Xudong Yan](https://xud-yan.github.io/), [Songhe Feng](https://faculty.bjtu.edu.cn/8407/)
 * **🏛️ Affiliations**: Beijing Jiaotong University
 * **🔍 More details**: [[arXiv version]](https://arxiv.org/abs/2510.20162) | [[NeurIPS version]](https://neurips.cc/virtual/2025/loc/san-diego/poster/117606) | [[code]](https://github.com/xud-yan/TOMCAT)
-* **🕰️ Latest Update Time**：2026.3.16 (Please use the newest yml file for C-GQA config. Sorry that the yml file for the C-GQA dataset was uploaded earlier contained suboptimal parameter settings, which has now been corrected (抱歉之前C-GQA数据集上传了并非最优的参数配置的yml，现已修正).)
+* **🕰️ Latest Update Time**：2026.3.23 (Please use the newest yml file for C-GQA config.)
 
 ## 📝 Overview
 
