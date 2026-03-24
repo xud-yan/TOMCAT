@@ -31,7 +31,7 @@ train:
   use_mixed_precision: True
 
 test:
-  eval_batch_size_wo_tta: 1
+  eval_batch_size_wo_tta: 256
   eval_batch_size: 1
   # load_model:
   topk: 1
