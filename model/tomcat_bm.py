@@ -253,21 +253,21 @@ class TOMCAT_BM(nn.Module):
                 enable_pos_emb=self.enable_pos_emb,
             )
         else:
-            with torch.no_grad():
-                #to reduce GPU memory for 3090
-                #if your GPU memory is enough, you don't need to split
-                split = class_token_embedding.size(0) // 2
-                label_text_features, _ = self.encode_text(
-                    token_ids=self.token_ids,
-                    token_tensors=class_token_embedding[:split],
-                    enable_pos_emb=self.enable_pos_emb,
-                )
-                label_text_features2, _ = self.encode_text(
-                    token_ids=self.token_ids,
-                    token_tensors=class_token_embedding[split:],
-                    enable_pos_emb=self.enable_pos_emb,
-                )
-                label_text_features = torch.cat((label_text_features, label_text_features2), dim=0)
+            # with torch.no_grad():
+            #to reduce GPU memory for 3090
+            #if your GPU memory is enough, you don't need to split
+            split = class_token_embedding.size(0) // 2
+            label_text_features, _ = self.encode_text(
+                token_ids=self.token_ids,
+                token_tensors=class_token_embedding[:split],
+                enable_pos_emb=self.enable_pos_emb,
+            )
+            label_text_features2, _ = self.encode_text(
+                token_ids=self.token_ids,
+                token_tensors=class_token_embedding[split:],
+                enable_pos_emb=self.enable_pos_emb,
+            )
+            label_text_features = torch.cat((label_text_features, label_text_features2), dim=0)
         return label_text_features
 
     def encode_text_from_pure_text(self, label_text):
