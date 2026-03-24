@@ -4,7 +4,7 @@
 * **🧑‍💻 Authors**: [Xudong Yan](https://xud-yan.github.io/), [Songhe Feng](https://faculty.bjtu.edu.cn/8407/)
 * **🏛️ Affiliations**: Beijing Jiaotong University
 * **🔍 More details**: [[arXiv version]](https://arxiv.org/abs/2510.20162) | [[NeurIPS version]](https://neurips.cc/virtual/2025/loc/san-diego/poster/117606) | [[code]](https://github.com/xud-yan/TOMCAT)
-* **🕰️ Latest Update Time**：2026.3.24 (Please use the newest config/cgqa.yml file because we update some hyperparameters for CGQA, and use the newset model/tomcat_bm.py file because we comment out line 256 of the "with torch.no_grad():" code.原来CGQA达不到论文报告的结果是因为tomcat_bm.py在cgqa数据集上去掉了部分可学习参数的梯度，以及上传的并非最优的config文件，我们现在已修复这个问题，请使用最新版本的config/cgqa.yml和model/tomcat_bm.py文件)
+* **🕰️ Latest Update Time**：2026.3.24 ( Please use the newest config/cgqa.yml file because we update some hyperparameters for CGQA, and use the newset model/tomcat_bm.py file because we comment out line 256 of the "with torch.no_grad():" code. 原来CGQA达不到论文报告的结果是因为tomcat_bm.py在cgqa数据集上去掉了部分可学习参数的梯度，以及上传的并非最优的config文件，我们现在已修复这个问题，请使用最新版本的config/cgqa.yml和model/tomcat_bm.py文件。)
 
 ## 📝 Overview
 
