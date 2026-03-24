@@ -17,12 +17,12 @@ train:
   scheduler: StepLR
   step_size: 5
   gamma: 0.5
-  lr: 0.0005 # 0.0001
-  attr_dropout: 0.3 # 0
-  weight_decay: 0.0001 # 0.00001
+  lr: 0.0001
+  attr_dropout: 0
+  weight_decay: 0.00001
   context_length: 10
-  train_batch_size: 8 # 4
-  gradient_accumulation_steps: 2 # 4
+  train_batch_size: 4
+  gradient_accumulation_steps: 4
   seed: 0
   epochs: 50
   epoch_start: 0
@@ -44,7 +44,7 @@ test:
   bias: 0.001
   text_first: True
   #
-  num_workers: 0 # 10 for training and 0 for test
+  num_workers: 10 # 10 for training and 0 for test
   current_epoch: -1
 
 tta:
