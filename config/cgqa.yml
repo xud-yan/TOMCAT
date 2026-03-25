@@ -24,7 +24,7 @@ train:
   train_batch_size: 4
   gradient_accumulation_steps: 4
   seed: 0
-  epochs: 50
+  epochs: 5
   epoch_start: 0
   val_metric: best_AUC
   save_final_model: True
