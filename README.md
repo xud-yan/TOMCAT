@@ -78,7 +78,15 @@ If you find our work helpful, please star the repository and cite our paper:
 ```
 or
 ```
-the NeurIPS version (will be released soon)
+@inproceedings{Yan_2025_NeurIPS,
+ author = {Yan, Xudong and Feng, Songhe},
+ booktitle = {Advances in Neural Information Processing Systems},
+ pages = {94673--94701},
+ title = {TOMCAT: Test-time Comprehensive Knowledge Accumulation for Compositional Zero-Shot Learning},
+ volume = {38},
+ year = {2025}
+}
+
 ```
 
 
